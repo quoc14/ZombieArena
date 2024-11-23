@@ -1,0 +1,15 @@
+# Ignore Unity auto-generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Ignore crash logs
+*.stacktrace
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
