@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Tilemap.Extras", "Unity.2D.Tilemap.Extras.csproj", "{F5DE93A1-3AF7-0E10-32D5-4815E41E2F5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Tilemap.Extras.Editor", "Unity.2D.Tilemap.Extras.Editor.csproj", "{5CA01D1B-AA8B-25AA-196F-0DA54F8C603A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Tilemap.Extras.Placeholder.EditorTests", "Unity.2D.Tilemap.Extras.Placeholder.EditorTests.csproj", "{75640289-9458-7FE0-5DE2-BF421B10D8F7}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{F8163BD4-D045-059C-79E9-0696641A0BBF}"
 EndProject
 Global
@@ -9,6 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5DE93A1-3AF7-0E10-32D5-4815E41E2F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5DE93A1-3AF7-0E10-32D5-4815E41E2F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5DE93A1-3AF7-0E10-32D5-4815E41E2F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5DE93A1-3AF7-0E10-32D5-4815E41E2F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA01D1B-AA8B-25AA-196F-0DA54F8C603A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA01D1B-AA8B-25AA-196F-0DA54F8C603A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA01D1B-AA8B-25AA-196F-0DA54F8C603A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA01D1B-AA8B-25AA-196F-0DA54F8C603A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75640289-9458-7FE0-5DE2-BF421B10D8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75640289-9458-7FE0-5DE2-BF421B10D8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75640289-9458-7FE0-5DE2-BF421B10D8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75640289-9458-7FE0-5DE2-BF421B10D8F7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F8163BD4-D045-059C-79E9-0696641A0BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8163BD4-D045-059C-79E9-0696641A0BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8163BD4-D045-059C-79E9-0696641A0BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
