@@ -1,51 +1,52 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
 
-public class ZombieShooting : MonoBehaviour
+public class ZombieShooter : MonoBehaviour
 {
-    public GameObject bulletPrefab;  // Prefab viên đạn
-    public Transform firePoint;      // Vị trí bắn đạn
-    public Transform player;         // Người chơi
-    public float bulletSpeed = 20f;  // Tốc độ viên đạn
-    public float shootInterval = 5f; // Thời gian giữa các lần bắn
+    public GameObject bulletPrefab;      // Prefab của viên đạn
+    public Transform player;            // Vị trí người chơi
+    public float shootInterval = 5f;    // Khoảng thời gian giữa các lần bắn
+    public float bulletSpeed = 10f;     // Tốc độ bay của viên đạn
 
-    private void Start()
+    void Start()
     {
-        StartCoroutine(ShootPeriodically());
+        StartCoroutine(ShootAtPlayer());
     }
 
-    IEnumerator ShootPeriodically()
+    IEnumerator ShootAtPlayer()
     {
         while (true)
         {
             yield return new WaitForSeconds(shootInterval); // Chờ 5 giây
-            Shoot(); // Gọi hàm bắn
+            Shoot(); // Gọi hàm bắn đạn
         }
     }
 
     private void Shoot()
     {
-        if (bulletPrefab != null && firePoint != null && player != null)
+        if (bulletPrefab != null && player != null)
         {
-            // Tạo viên đạn tại vị trí FirePoint
-            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            // Tạo viên đạn tại vị trí của zombie
+            GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
 
-            // Gắn Rigidbody và thêm vận tốc
-            Rigidbody rb = bullet.GetComponent<Rigidbody>();
-            if (rb != null)
+            // Kiểm tra và gán Rigidbody2D cho viên đạn
+            Rigidbody2D rb2d = bullet.GetComponent<Rigidbody2D>();
+            if (rb2d != null)
             {
-                Vector3 direction = (player.position - firePoint.position).normalized;
-                rb.velocity = direction * bulletSpeed;
-                Debug.Log("Viên đạn bắn theo hướng: " + direction);
+                // Tính toán hướng từ zombie đến người chơi
+                Vector2 direction = (player.position - transform.position).normalized;
+
+                // Áp dụng vận tốc để viên đạn bay về phía người chơi
+                rb2d.velocity = direction * bulletSpeed;
             }
             else
             {
-                Debug.LogWarning("Viên đạn không có Rigidbody!");
+                Debug.LogError("Bullet prefab thiếu Rigidbody2D!");
             }
         }
         else
         {
-            Debug.LogWarning("Chưa thiết lập bulletPrefab, firePoint hoặc player!");
+            Debug.LogWarning("Chưa thiết lập bulletPrefab hoặc player!");
         }
     }
 }

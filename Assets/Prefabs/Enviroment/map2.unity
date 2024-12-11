@@ -41346,10 +41346,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 2561937105054768588, guid: 5983b8ac47b7f2149a568152fa3c79f4, type: 3}
-  firePoint: {fileID: 84083167}
   player: {fileID: 2136426557}
-  bulletSpeed: 10
   shootInterval: 5
+  bulletSpeed: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
