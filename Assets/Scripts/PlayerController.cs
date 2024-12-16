@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-
-public class PLayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     // [SerializeField] private float moveSpeed = 1f;
 
-    // private PLayerControls playerControls;
+    // private PlayerControls playerControls;
     // private Vector2 movement;
     // private Rigidbody2D rb;
-
+    
     // private void Awake(){
-    //     playerControls = new PLayerControls();
+    //     playerControls = new PlayerControls();
     //     rb = GetComponent<Rigidbody2D>();
     // }
 
@@ -36,12 +35,12 @@ public class PLayerController : MonoBehaviour
     // private void Move(){
     //     rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
     // }
+
+
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
-
-    public SwordsAttack swordAttack;
-
+    public SwordAttack swordAttack;
     Vector2 movementInput;
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
@@ -58,12 +57,11 @@ public class PLayerController : MonoBehaviour
 
     private void FixedUpdate(){
         if(canMove){
-            // If move input is not 0, try to move
             if(movementInput != Vector2.zero){
-                bool success = TryMove(movementInput);
+            bool success = TryMove(movementInput);
 
                 if(!success){
-                    success = TryMove(new Vector2(movementInput.x, 0)); 
+                    success = TryMove(new Vector2(movementInput.x, 0));
                 }
 
                 if(!success){
@@ -78,14 +76,13 @@ public class PLayerController : MonoBehaviour
 
             if(movementInput.x < 0){
                 spriteRenderer.flipX = true;
-                // swordAttack.attackDirection = SwordsAttack.AttackDirection.left;
+            
             }
             else if(movementInput.x > 0){
                 spriteRenderer.flipX = false;
-                // swordAttack.attackDirection = SwordsAttack.AttackDirection.right;
+                
             }
         }
-        
     }
 
     private bool TryMove(Vector2 direction){
@@ -94,10 +91,11 @@ public class PLayerController : MonoBehaviour
             direction,
             movementFilter,
             castCollisions,
-            moveSpeed * Time.fixedDeltaTime + collisionOffset
+            moveSpeed * Time.fixedDeltaTime * collisionOffset
             );
+
             if(count == 0){
-                rb.MovePosition(rb.position + movementInput * moveSpeed * Time.fixedDeltaTime);
+                rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
                 return true;
             }
             else{
@@ -125,13 +123,15 @@ public class PLayerController : MonoBehaviour
         else{
             swordAttack.AttackRight();
         }
+        
     }
 
     public void LockMovement(){
         canMove = false;
     }
 
-    public void UnlockMovement(){
+    public void UnlockMovement() {
         canMove = true;
     }
 }
+
