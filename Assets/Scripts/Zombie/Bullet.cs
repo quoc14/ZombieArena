@@ -6,17 +6,19 @@ public class Bullet : MonoBehaviour
 
     void Start()
     {
-        // Tự động hủy viên đạn sau một khoảng thời gian
         Destroy(gameObject, lifetime);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Kiểm tra va chạm với người chơi
-        if (other.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             Debug.Log("Hit Player!");
-            Destroy(gameObject); // Hủy viên đạn
+            Destroy(gameObject);
+        }
+        else if (collision.CompareTag("Obstacle"))
+        {
+            Destroy(gameObject);
         }
     }
 }

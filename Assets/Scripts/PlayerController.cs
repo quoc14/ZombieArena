@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 
 public class PLayerController : MonoBehaviour
 {
+<<<<<<< Updated upstream
     // [SerializeField] private float moveSpeed = 1f;
 
     // private PLayerControls playerControls;
@@ -36,6 +37,8 @@ public class PLayerController : MonoBehaviour
     // private void Move(){
     //     rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
     // }
+=======
+>>>>>>> Stashed changes
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;

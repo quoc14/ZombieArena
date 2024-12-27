@@ -17802,6 +17802,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: cde6332623f820b48842bf93ffd2c9c5, type: 2}
+    - target: {fileID: 1920175666266521435, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1760146533}
+    - target: {fileID: 1920175666266521435, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
+      propertyPath: moveSpeed
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2568464518285280319, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
       propertyPath: m_Name
       value: Zombie
@@ -17820,11 +17828,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5364810535354374940, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.76
+      value: 1.97
       objectReference: {fileID: 0}
     - target: {fileID: 5364810535354374940, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.07
+      value: -2.4
       objectReference: {fileID: 0}
     - target: {fileID: 5364810535354374940, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17858,11 +17866,87 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6395253274669113539, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
+      propertyPath: moveSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6395253274669113539, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6395253274669113539, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
+      propertyPath: obstacleAvoidanceDistance
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2568464518285280319, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
+      insertIndex: 6
+      addedObject: {fileID: 1933787434}
+  m_SourcePrefab: {fileID: 100100000, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
+--- !u!1001 &1303509703
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 657807974066622315, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097225976097757946, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
+      propertyPath: moveSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881935763879988426, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881935763879988426, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881935763879988426, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881935763879988426, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881935763879988426, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881935763879988426, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881935763879988426, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881935763879988426, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881935763879988426, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881935763879988426, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
 --- !u!1 &1351314618
 GameObject:
   m_ObjectHideFlags: 0
@@ -17955,6 +18039,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1001 &1683395522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18012,6 +18097,13 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97928b4fbe7656e4b9dc723f63f46e64, type: 3}
+=======
+--- !u!4 &1760146533 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8881935763879988426, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
+  m_PrefabInstance: {fileID: 1303509703}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!1 &1844216618
 GameObject:
   m_ObjectHideFlags: 0
@@ -41246,11 +41338,85 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< Updated upstream
 --- !u!4 &2136426557 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6258535373087125665, guid: 97928b4fbe7656e4b9dc723f63f46e64, type: 3}
   m_PrefabInstance: {fileID: 1683395522}
   m_PrefabAsset: {fileID: 0}
+=======
+--- !u!1 &1933787426 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2568464518285280319, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
+  m_PrefabInstance: {fileID: 1231499112}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1933787434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933787426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3821f957bb423b40b1070909062a4e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 10
+  attackRange: 1.5
+  attackCooldown: 1
+  playerTransform: {fileID: 1760146533}
+--- !u!1 &2036229433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2036229435}
+  - component: {fileID: 2036229434}
+  m_Layer: 0
+  m_Name: ZombieSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2036229434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036229433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 920bced7acac286449383c61d68a626e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombiePrefab: {fileID: 1933787426}
+  spawnPoints:
+  - {fileID: 2036229435}
+  initialWaveSize: 5
+  timeBetweenWaves: 10
+  spawnInterval: 5
+--- !u!4 &2036229435
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036229433}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.65, y: -5.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
 --- !u!1001 &928197901588681825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41263,6 +41429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombie2
       objectReference: {fileID: 0}
+    - target: {fileID: 7495542551821935150, guid: fc87d6c512c379f419ea21fdb27168f0, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1760146533}
     - target: {fileID: 9044779252316735170, guid: fc87d6c512c379f419ea21fdb27168f0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.6
@@ -41346,9 +41516,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 2561937105054768588, guid: 5983b8ac47b7f2149a568152fa3c79f4, type: 3}
+<<<<<<< Updated upstream
   player: {fileID: 2136426557}
+=======
+  player: {fileID: 1760146533}
+>>>>>>> Stashed changes
   shootInterval: 5
   bulletSpeed: 10
+  attackRange: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -41357,4 +41532,9 @@ SceneRoots:
   - {fileID: 1128372629}
   - {fileID: 928197901588681825}
   - {fileID: 1231499112}
+<<<<<<< Updated upstream
   - {fileID: 1683395522}
+=======
+  - {fileID: 1303509703}
+  - {fileID: 2036229435}
+>>>>>>> Stashed changes

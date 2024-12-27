@@ -163,6 +163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06ff1650891d4af4ba29d315b1afd7b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  chaseRange: 5
+  attackRange: 1.5
 --- !u!114 &6395253274669113539
 MonoBehaviour:
   m_ObjectHideFlags: 0
