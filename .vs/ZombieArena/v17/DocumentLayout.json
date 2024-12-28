@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|c:\\users\\phong\\documents\\github\\zombiearena\\assets\\scripts\\zombie\\zombie health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\assets\\scripts\\zombie\\zombie health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zombie\\zombie health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|c:\\users\\phong\\documents\\github\\zombiearena\\assets\\scripts\\zombie\\meleezombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zombie\\meleezombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|c:\\users\\phong\\documents\\github\\zombiearena\\assets\\scripts\\zombie\\enemiespath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zombie\\enemiespath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\assets\\scripts\\zombie\\enemiesai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zombie\\enemiesai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\assets\\scripts\\zombie\\zombiespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\assets\\scripts\\zombie\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zombie\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\assets\\scripts\\zombie\\enemiespath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zombie\\enemiespath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\assets\\scripts\\zombie\\enemiesai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8163BD4-D045-059C-79E9-0696641A0BBF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zombie\\enemiesai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,28 +38,29 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "EnemiesAI.cs",
               "DocumentMoniker": "C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\Assets\\Scripts\\Zombie\\EnemiesAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Zombie\\EnemiesAI.cs",
               "ToolTip": "C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\Assets\\Scripts\\Zombie\\EnemiesAI.cs",
               "RelativeToolTip": "Assets\\Scripts\\Zombie\\EnemiesAI.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAjwB4AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvyoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T05:23:46.948Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MeleeZombie.cs",
-              "DocumentMoniker": "C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\Assets\\Scripts\\Zombie\\MeleeZombie.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Zombie\\MeleeZombie.cs",
-              "ToolTip": "C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\Assets\\Scripts\\Zombie\\MeleeZombie.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Zombie\\MeleeZombie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "EnemiesPath.cs",
+              "DocumentMoniker": "C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\Assets\\Scripts\\Zombie\\EnemiesPath.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Zombie\\EnemiesPath.cs",
+              "ToolTip": "C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\Assets\\Scripts\\Zombie\\EnemiesPath.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Zombie\\EnemiesPath.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T18:53:24.03Z",
+              "WhenOpened": "2024-11-25T08:04:35.114Z",
               "EditorCaption": ""
             },
             {
@@ -74,14 +71,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Zombie\\Zombie Health.cs",
               "ToolTip": "C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\Assets\\Scripts\\Zombie\\Zombie Health.cs",
               "RelativeToolTip": "Assets\\Scripts\\Zombie\\Zombie Health.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T18:52:24.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ZombieSpawner.cs",
               "DocumentMoniker": "C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\Assets\\Scripts\\Zombie\\ZombieSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Zombie\\ZombieSpawner.cs",
@@ -93,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Zom.cs",
               "DocumentMoniker": "C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\Assets\\Scripts\\Zombie\\Zom.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Zombie\\Zom.cs",
@@ -105,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\Assets\\Scripts\\Zombie\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Zombie\\Bullet.cs",
@@ -114,18 +111,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T10:02:39.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnemiesPath.cs",
-              "DocumentMoniker": "C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\Assets\\Scripts\\Zombie\\EnemiesPath.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Zombie\\EnemiesPath.cs",
-              "ToolTip": "C:\\Users\\PHONG\\Documents\\GitHub\\ZombieArena\\Assets\\Scripts\\Zombie\\EnemiesPath.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Zombie\\EnemiesPath.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T08:04:35.114Z"
             }
           ]
         }

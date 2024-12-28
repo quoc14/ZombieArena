@@ -4928,6 +4928,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!4 &522484052 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8881935763879988426, guid: 28c90fa1dbf2ffa4c868abc53a3e8516, type: 3}
+  m_PrefabInstance: {fileID: 1503172387}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &704268519
 GameObject:
   m_ObjectHideFlags: 0
@@ -17855,15 +17860,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5364810535354374940, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.5947416
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 5364810535354374940, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4.1082764
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 5364810535354374940, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0270691
+      value: 1.1982472
       objectReference: {fileID: 0}
     - target: {fileID: 5364810535354374940, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17904,6 +17909,10 @@ PrefabInstance:
     - target: {fileID: 5364810535354374940, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5364810535354374940, guid: 4f5609e28bfea434592ea742b2492b04, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41404,7 +41413,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.28, y: -2.78, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1.0270691}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1.0270691}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -41575,7 +41584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 2561937105054768588, guid: 5983b8ac47b7f2149a568152fa3c79f4, type: 3}
-  player: {fileID: 0}
+  player: {fileID: 522484052}
   shootInterval: 5
   bulletSpeed: 10
 --- !u!114 &8340630478574088880

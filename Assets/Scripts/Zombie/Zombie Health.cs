@@ -54,6 +54,4 @@ public class TankZombie : Zombie
         maxHealth = 150f; // Máu tối đa cho zombie đỡ đòn
         base.Start(); // Gọi phương thức khởi tạo của lớp cơ sở
     }
-
-    // Có thể thêm các phương thức riêng cho zombie đỡ đòn
 }
