@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using UnityEngine;
-
 public class CameraFollow : MonoBehaviour
 {
     public Transform target; // Nhân vật chính

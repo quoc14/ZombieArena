@@ -107,7 +107,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void OnMove(InputValue movementValue){
+    void OnMove(InputValue movementValue) {
         movementInput = movementValue.Get<Vector2>();
     }
 
@@ -117,6 +117,7 @@ public class PlayerController : MonoBehaviour
 
     public void SwordAttack(){
         LockMovement();
+
         if(spriteRenderer.flipX == true){
             swordAttack.AttackLeft();
         }

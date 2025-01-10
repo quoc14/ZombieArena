@@ -8,18 +8,16 @@ public class SwordAttack : MonoBehaviour
     public float damage = 3;
     Vector2 rightAttackOffset;
 
-    private void Start(){
+    private void Start() {
         rightAttackOffset = transform.position;
     }
 
     public void AttackRight() {
-        print("Attack Right");
         swordCollider.enabled = true;
         transform.localPosition = rightAttackOffset;
     }
 
-    public void AttackLeft(){
-        print("Attack Left");
+    public void AttackLeft() {
         swordCollider.enabled = true;
         transform.localPosition = new Vector3(rightAttackOffset.x * -1, rightAttackOffset.y);
     }
@@ -28,12 +26,13 @@ public class SwordAttack : MonoBehaviour
         swordCollider.enabled = false;
     }
 
-    private void OnTriggerEnter2D(Collider2D other){
-        if(other.tag == "Enemy"){
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.tag == "Enemy") {
+            // Deal damage to the enemy
             Enemy enemy = other.GetComponent<Enemy>();
 
-            if(enemy != null){
-                enemy.health -= damage;
+            if(enemy != null) {
+                enemy.Health -= damage;
             }
         }
     }
